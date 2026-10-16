@@ -1,4 +1,4 @@
-# 🌤️ Estação Meteorológica e de Qualidade do Ar com ESP32 (IoT)
+# 🌤️ Projeto 15: Monitoramento Ambiental com IoT
 
 Este repositório contém o código de desenvolvimento e integração de uma **Estação Meteorológica e de Qualidade do Ar baseada em ESP32**, construída passo a passo desde os testes individuais de cada sensor até o envio automático de dados para a nuvem utilizando a plataforma **ThingSpeak**.
 
@@ -54,7 +54,7 @@ O repositório está organizado em etapas para demonstrar a evolução da montag
 Clone o repositório:
 
 Bash
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+git clone [https://github.com/SEU-USUARIO/Projeto-15-monitoramento-ambiental-com-IoT.git](https://github.com/SEU-USUARIO/Projeto-15-monitoramento-ambiental-com-IoT.git)
 Abra o arquivo da pasta 06-estacao-iot-thingspeak na Arduino IDE.
 
 Atualize as variáveis no código com os seus dados de Wi-Fi e ThingSpeak:
@@ -65,3 +65,6 @@ const char* senha = "SENHA_DA_SUA_REDE";
 unsigned long meuCanal = 0000000; // Seu Channel ID
 const char* minhaChaveEscrita = "SUA_WRITE_API_KEY"; // Sua Write API Key
 Conecte o ESP32 ao computador e faça o upload!
+
+
+<FollowUp label="Conseguiu colar e salvar o README.md completo no GitHub?" query="Deu tudo certo ao s
