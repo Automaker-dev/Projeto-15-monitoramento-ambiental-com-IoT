@@ -1,4 +1,3 @@
-Markdown
 # 🌤️ Estação Meteorológica e de Qualidade do Ar com ESP32 (IoT)
 
 Este repositório contém o código de desenvolvimento e integração de uma **Estação Meteorológica e de Qualidade do Ar baseada em ESP32**, construída passo a passo desde os testes individuais de cada sensor até o envio automático de dados para a nuvem utilizando a plataforma **ThingSpeak**.
@@ -31,12 +30,12 @@ Os dados coletados são processados pelo ESP32 e enviados periodicamente para o 
 
 ## 📚 Bibliotecas Necessárias
 
-Para compilar e carregar os códigos na Arduino IDE, certifique-se de instalar as seguintes bibliotecas no **Gerenciador de Bibliotecas**:
+Para compilar e carregar os códigos na Arduino IDE, certifique-se de instalar as seguintes bibliotecas no **Gerenciador de Bibliotecas** (ou através dos links abaixo):
 
-1. `DHT sensor library` (por Adafruit)
-2. `Adafruit BMP085 Library` (por Adafruit)
-3. `ThingSpeak` (por MathWorks)
-4. `WiFi` (Já integrada ao pacote de placas do ESP32)
+1. [`DHT sensor library` (por Adafruit)](https://github.com/adafruit/DHT-sensor-library)
+2. [`Adafruit BMP085 Library` (por Adafruit)](https://github.com/adafruit/Adafruit-BMP085-Library)
+3. [`ThingSpeak` (por MathWorks)](https://github.com/mathworks/thingspeak-arduino)
+4. `WiFi` *(Já integrada ao pacote de placas oficial do ESP32 na Arduino IDE)*
 
 ---
 
