@@ -11,3 +11,9 @@ void loop() {
 int valorQualidadeAr = analogRead(pinoMQ135);
 Serial.print("Qualidade do Ar (Valor Bruto): ");
 Serial.println(valorQualidadeAr);
+// Lógica simples: quanto maior o valor, maior a concentração de gases (pior a qualidade)
+if (valorQualidadeAr > 1000) {
+Serial.println("Alerta: Qualidade do ar ruim!");
+}
+delay(2000); // Aguarda 2 segundos
+}
